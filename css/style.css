@@ -16,12 +16,6 @@ header {
     margin: 40px;
 }
 
-:root {
-    --main-color: #cc4b4b;
-    --secondary-color: #4e9ae7;
-    --font-size-large: 24px;
-}
-
 h1 {
     color: rgb(72, 144, 232);
     font-size: var(--font-size-large);
@@ -108,7 +102,7 @@ footer {
 }
 
 form {
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -174,7 +168,7 @@ button:hover {
 }
 
 img {
-    width: 100%; 
-    height: auto; 
+    max-width: 90%; 
+    height: 20%; 
     object-position: center;
 }
