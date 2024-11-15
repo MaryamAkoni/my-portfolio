@@ -4,7 +4,7 @@ body {
     margin: 30px;
     padding: 20px;
     line-height: 1.6;
-    background-color: rgb(240, 171, 183);
+    background-color: rgb(240, 188, 197);
 }
 
 header {
@@ -105,4 +105,76 @@ footer {
         padding: 10px;
         margin: 10px;
     }
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="radio"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: medium;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+input[type="message"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: medium;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3bbe46;
+}
+
+.error-message {
+    color: red;
+    font-size: small;
+    margin-top: 5px;
+    display: none;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    object-position: center;
 }
