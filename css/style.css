@@ -176,3 +176,9 @@ img {
 html {
     scroll-behavior: smooth;
 }
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+

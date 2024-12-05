@@ -81,3 +81,9 @@ function displayLocation(position) {
 }
 
 document.getElementById("getLocationBtn").addEventListener("click", getLocation);
+
+
+const toggleThemeButton = document.getElementById('toggleTheme');
+toggleThemeButton.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
