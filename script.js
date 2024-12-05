@@ -88,7 +88,6 @@ toggleThemeButton.addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
 });
 
-
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projects = document.querySelectorAll('.project');
 
