@@ -172,3 +172,7 @@ img {
     height: 20%; 
     object-position: center;
 }
+
+html {
+    scroll-behavior: smooth;
+}
